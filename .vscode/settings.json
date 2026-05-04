@@ -1,0 +1,6 @@
+{
+  "nekoPlugin.pluginRoot": "../..",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/../.."
+  ]
+}

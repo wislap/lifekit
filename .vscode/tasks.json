@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "N.E.K.O: doctor lifekit",
+      "type": "shell",
+      "command": "uv run python neko-plugin-cli/cli.py doctor lifekit",
+      "options": {
+        "cwd": "${config:nekoPlugin.pluginRoot}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "N.E.K.O: release-check lifekit",
+      "type": "shell",
+      "command": "uv run python neko-plugin-cli/cli.py release-check lifekit",
+      "options": {
+        "cwd": "${config:nekoPlugin.pluginRoot}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "N.E.K.O: pack lifekit",
+      "type": "shell",
+      "command": "uv run python neko-plugin-cli/cli.py pack lifekit",
+      "options": {
+        "cwd": "${config:nekoPlugin.pluginRoot}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
